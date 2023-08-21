@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <script type="text/javascript" src="js/script.js"></script>
+     <script type="text/javascript" src="js/main.js"></script>
+    <title>Truco</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora - IMC</h1>
+    </header>
+    
+    <div class="container">
+      <div class="card">
+      <form>
+        <input class="input" id="txt_nome" type="text" placeholder="DIGITE O NOME AQUI" />
+        <input class="input" id="txt_idade" type="" placeholder="DIGITE A IDADE AQUI" /> 
+       <input class="input" id="txt_sexo" type="text" placeholder="DIGITE O SEXO AQUI" />
+        <input class="input" id="num_altura" type="text" placeholder="DIGITE A ALTURA AQUI" />
+        <input class="input" id="num_peso" type="text" placeholder="DIGITE O PESO AQUI" />
+      </form>
+      
+      <div class="botoes">
+      <button id="btn_enviar">
+        ENVIAR
+      </button>
+      <button id="btn_limpar">
+        LIMPAR
+      </button>
+      </div>
+      </div>
+      
+      <div class="card">
+        <div id="table">
+          <h2 class="titulo_result">Paciente verificado</h2>
+          <ul>
+            <li class="itens"><p id="li_nome"></p></li>
+            <li class="itens" id="li_idade"></li>
+            <li class="itens" id="li_sexo"></li>
+            <li class="itens" id="li_altura"></li>
+            <li class="itens" id="li_peso"></li>
+            <li class="itens" id="li_classificacao"></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      
+      <footer>
+        <h5>Autor: Eder Amorim - minha PWA</h5>
+      </footer>
+</body>
+</html>
